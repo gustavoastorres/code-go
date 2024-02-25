@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	fmt.Println("When's Monday?")
+	fmt.Println("When's Tuesday?")
 	today := time.Now().Weekday()
-	switch time.Monday {
+	switch time.Tuesday {
 	case today:
 		fmt.Println("Today.")
 	case (today + 1) % 7:
